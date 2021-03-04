@@ -1,4 +1,3 @@
-const monthsEl = document.getElementById("months");
 const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
@@ -12,7 +11,6 @@ function countdown() {
 
     const totalSeconds = (newBDDate - currentDate) / 1000;
 
-    const months = Math.floor(totalSeconds / 3600 / 24/ 30);
     const days = Math.floor(totalSeconds / 3600 / 24);
     const hours = Math.floor(totalSeconds / 3600) % 24;
     const mins = Math.floor(totalSeconds / 60) % 60;
@@ -20,7 +18,6 @@ function countdown() {
     
     console.log (newBDDate - currentDate);
    
-    monthsEl.innerHTML = months;
     daysEl.innerHTML = days;
     hoursEl.innerHTML = formatTime(hours);
     minsEl.innerHTML = formatTime(mins);
