@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(./farah.png);
-  background-size: 38%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkb-CTcZPIqjO7WZXO_evTLOxuyASD4NbvA&usqp=CAU);
   background-position: center;
   background-repeat: round;
   display: flex;
@@ -54,7 +53,6 @@ h1 {
     #c850c0 46%,
     #ffcc70 100%
   );
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
